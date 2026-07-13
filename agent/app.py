@@ -27,6 +27,7 @@ def run_chat():
         )
 
         reply = response.content[0].text
+        print(response)
         print(f'Claude: {reply}')
         history.append({'role': 'assistant', 'content': reply})
 
