@@ -10,8 +10,9 @@ def run_chat():
     print("You: (type exit to quit)")
 
     system_message = (
-        "Your name is Hiba. You are a helpful and friendly assistant "
-        "who helps students learn about anything they ask you to. be friendly, sweet and caring! you're like their best friend"
+        "your name is maya, you're a creative assistant, your job is to answer questions about art, litrature and things in between. "
+        "rules: always only answer things within your feild, always be nice and like a best friend"
+        "never questions outside your feild (ex. science, math,etc..)"
     )
 
 
@@ -59,4 +60,11 @@ run_chat()
     #2.prediction, API doesn't work: the history won't hsve the uder's input 
     #3. i encoutred a namerror, an error with the hisroty and an indendation error, 
     #3. the fixes for them were pretty straightfowrward
+#lab 3!!
+#reflection:
+#1. 
+#2. if the system msg gets deleted the AI will have no tone and will respond in a neutral way
+#2. if i remove the "be friendly" it might be a bit generic and have no sweet tone
+#2.i didnt add a response in a specific way function
+#2.i encountred an error where my code just didnt print a response, it printed the history only 
 
